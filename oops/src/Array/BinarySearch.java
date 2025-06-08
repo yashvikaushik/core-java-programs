@@ -39,9 +39,9 @@ public class BinarySearch {
         int searchValue=sc.nextInt();
         int start=0;
         int end=size-1;
-        int mid=(start+end)/2;
         int pos=0;
         for(int i=0;i<size;i++){
+            int mid=(start+end)/2;
             if(searchValue==arr[mid]){
                 pos=mid;
               break;
