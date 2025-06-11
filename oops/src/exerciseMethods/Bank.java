@@ -9,9 +9,6 @@ public class Bank {
         this.bankName=bankName;
         this.licenseNumber=licenseNumber;
         this.customer=customer;
-        /*for(int i=0;i<customer.length;i++){
-           this.customer[i]=customer[i];
-        }*/
      }
       public void displayDetails(){
         System.out.println("the name of the bank is: "+bankName);
